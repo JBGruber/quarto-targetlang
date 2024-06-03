@@ -1,0 +1,9 @@
+.DS_Store
+.Rproj.user
+.Rhistory
+/.quarto/
+/.luarc.json
+template_files/*
+template.html
+quarto-targetlang.rproj
+langsplitter.r

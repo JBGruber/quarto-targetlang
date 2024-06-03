@@ -1,0 +1,24 @@
+---
+title: Some title
+author: Some author
+date: last-modified
+format:
+  targetlang-ipynb: 
+    toc: false
+    filters: 
+      - langsplit.lua
+  html: default
+target_lang: "r"
+---
+
+Here is some text.
+
+And here are some code chunks:
+
+```{python test-py}
+print("some python code")
+```
+
+```{r test-r}
+print("some R code")
+```
