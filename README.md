@@ -73,5 +73,5 @@ quarto_render(input = "template.qmd", output_format = "html")
 
 # Acknowledgment
 
-I'm not very good with lua and the pandoc extension is not that straightforward either.
-So I'm grateful to the StackStack Overflow users [tarleb](https://stackoverflow.com/users/2425163/tarleb) and [Shafee](https://stackoverflow.com/users/10858321/shafee) who wrote most of the lua code, to be honest.
+I'm not very good with lua and couldn't wrap my head around the pandoc extension immediately either.
+So I'm grateful to the Stack Overflow users [tarleb](https://stackoverflow.com/users/2425163/tarleb) and [Shafee](https://stackoverflow.com/users/10858321/shafee) who wrote most of the lua code, to be honest.
