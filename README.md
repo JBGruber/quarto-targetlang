@@ -30,10 +30,8 @@ sense.
 ### Installing
 
 ``` bash
-quarto add JBGruber/quarto-targetlang
+quarto add jbgruber/quarto-targetlang
 ```
-
-Using {quarto-wordcount} requires Quarto version \>= 1.3.0
 
 This will install the extension under the `_extensions` subdirectory. If
 you’re using version control, you will want to check in this directory.
