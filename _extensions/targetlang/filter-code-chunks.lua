@@ -1,3 +1,5 @@
+-- based on https://stackoverflow.com/a/78564793/5028841
+
 local str = pandoc.utils.stringify
 
 local function lang_checker(target_lang)
