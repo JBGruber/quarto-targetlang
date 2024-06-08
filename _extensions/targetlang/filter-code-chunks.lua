@@ -24,7 +24,7 @@ local function remove_div_with_para(target_lang)
     Div = function(el)
       if el.classes:includes('cell') then
         local check_lang = el:walk(lang_checker(target_lang))
-        if check_lang.content[1].t == "Para" then
+        if check_lang.content[1] ~= nil and check_lang.content[1].t == "Para" then
           return pandoc.Null()
         else
           return el
